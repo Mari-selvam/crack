@@ -7,7 +7,10 @@ Step: 2
 cd crack
 
 Step: 3
-wget "" -o crack.pt
+pip install gdown
+
+Step: 4
+gdown 1GqJ0mXpNrAbJXfOwcy3ultyrwLhFKCWv
 
 Step: 4
 git clone https://github.com/WongKinYiu/yolov7
