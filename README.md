@@ -1,7 +1,6 @@
-# crack
-# First install the python
+# Steps to detect wall crack live
 
-gitclone 
+git clone https://github.com/Mari-selvam/crack.git
 
 cd crack
 
