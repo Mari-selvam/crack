@@ -1,4 +1,4 @@
-# Steps to detect wall crack live
+# Steps to detect wall crack on live cam.
 
 git clone https://github.com/Mari-selvam/crack.git
 
@@ -14,6 +14,12 @@ pip install -r requirements.txt
 
 cd ..
 
-python yolov7/detect.py --weights best.pt --conf 0.1 --source Wall Crack .mp4
+# detect the video
 
-python yolov7/detect.py --weights best.pt --conf 0.1 --source 0
+python yolov7/detect.py --weights crack.pt --conf 0.1 --source Wall_Crack .mp4
+
+# output ('runs/train/exp/output.mp4')
+
+# using Live webcam
+
+python yolov7/detect.py --weights crack.pt --conf 0.1 --source 0
