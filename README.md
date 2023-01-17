@@ -27,7 +27,7 @@ cd ..
 # detect the video
 
 Step: 8
-python yolov7/detect.py --weights crack.pt --conf 0.1 --source Wall_Crack .mp4
+*python yolov7/detect.py --weights crack.pt --conf 0.1 --source Wall_Crack .mp4*
 
 => output ('runs/train/exp/output.mp4')
 
